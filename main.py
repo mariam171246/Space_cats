@@ -6,7 +6,7 @@ from sprite import *
 #Captain, Meteorite, Starship, Alien
 
 
-
+#функция диалог
 def dialogue_mode(sprite, text):
     sprite.update()
     screen.blit(space, (0, 0))
